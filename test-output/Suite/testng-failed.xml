@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Mail" value="phyraji@gmail.com"/>
+  <parameter name="Pass" value="pass$123"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="ada.org.Gmail">
+        <methods>
+          <include name="tc4"/>
+          <include name="tc2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ada.org.Gmail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
